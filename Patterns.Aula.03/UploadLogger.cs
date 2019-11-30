@@ -7,7 +7,6 @@ namespace Patterns.Aula._03
         public void Log(UploadParams parameters)
         {
             Console.WriteLine($"Upload command received with file name {parameters.FileName}");
-            Console.ReadKey();
         }
     }
 }

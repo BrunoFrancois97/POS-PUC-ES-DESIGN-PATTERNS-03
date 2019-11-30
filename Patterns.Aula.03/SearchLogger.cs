@@ -7,7 +7,6 @@ namespace Patterns.Aula._03
         public void Log(SearchParams parameters)
         {
             Console.WriteLine($"Search command received to {parameters.Destination} with the following keywords {parameters.Keywords}");
-            Console.ReadKey();
         }
     }
 }
