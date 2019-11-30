@@ -2,7 +2,7 @@
 {
     public enum ActionType
     {
-        Serach,
+        Search,
         Execute,
         Upload,
         Neighbors,

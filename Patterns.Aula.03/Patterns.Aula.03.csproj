@@ -46,9 +46,18 @@
     <Compile Include="ActionCommand.cs" />
     <Compile Include="ActionLogger.cs" />
     <Compile Include="ActionType.cs" />
+    <Compile Include="ExecuteLogger.cs" />
+    <Compile Include="ExecuteParams.cs" />
     <Compile Include="ICommand.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="NeighborsLogger.cs" />
+    <Compile Include="NeighborsParams.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchLogger.cs" />
+    <Compile Include="SearchParams.cs" />
+    <Compile Include="UploadLogger.cs" />
+    <Compile Include="UploadParams.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
