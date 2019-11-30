@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionCommand.cs" />
-    <Compile Include="ActionLogger.cs" />
+    <Compile Include="CommandInvoker.cs" />
     <Compile Include="ActionType.cs" />
     <Compile Include="ExecuteLogger.cs" />
     <Compile Include="ExecuteParams.cs" />

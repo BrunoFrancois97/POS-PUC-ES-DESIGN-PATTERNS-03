@@ -2,12 +2,12 @@
 
 namespace Patterns.Aula._03
 {
-    public class ActionLogger
+    public class CommandInvoker
     {
         private readonly IList<ICommand> commands;
         private ICommand command;
 
-        public ActionLogger()
+        public CommandInvoker()
         {
             commands = new List<ICommand>();
         }
